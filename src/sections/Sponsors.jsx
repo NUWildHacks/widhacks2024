@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
-const Container = styled.div``;
+const Container = styled.div`
+  min-height: 1000px;
+`;
 
 export default function Sponsors() {
-  return <Container>This is the sponsors</Container>;
+  return <Container id="sponsors">This is the sponsors</Container>;
 }
