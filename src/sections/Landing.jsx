@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  min-height: 1000px;
+  min-height: 550px;
 `;
 
 export default function Landing() {

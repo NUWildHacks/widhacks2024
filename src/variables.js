@@ -7,6 +7,14 @@ export const facebook = 'https://www.facebook.com/WildHacksNU';
 
 export const email = 'wildhacks@northwestern.edu';
 
+// Themes
+export const theme = 'Beyond the Books';
+export const tracks = ['theme1', 'theme2', 'theme3'];
+
+// About
+export const about =
+  "WildHacks is Northwestern's overnight Hackathon taking place in-person April 15-16 2023. As Northwestern's largest hackathon, WildHacks is an opportunity for students to learn programming skills and develop a final project in a collaborative and inclusive environment. Through workshops, mentorship, and prizes, WildHacks aims to be an inclusive event that welcomes students of all skill levels, majors, and backgrounds.";
+
 // Question: Answer
 // There is some syntax issue
 // export const faq_general = {
