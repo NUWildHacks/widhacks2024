@@ -14,15 +14,23 @@ const Container = styled.div`
   min-height: 200px;
   background-color: var(--brown);
   color: var(--beige);
-  font-size: 25px;
+
+  p {
+    font-size: 30px;
+  }
 `;
 
 const Socials = styled.div`
   display: flex;
+  font-size: 18px;
 
   a {
     margin: 10px 20px;
     color: var(--beige);
+
+    &:hover {
+      color: var(--gold);
+    }
   }
 `;
 
@@ -31,16 +39,16 @@ export default function Footer() {
     <Container>
       <Socials>
         <a href={instagram} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faInstagram} className="fa-2x" />
         </a>
         <a href={facebook} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faFacebook} className="fa-2x" />
         </a>
         <a href={`mailto:${email}`}>
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} className="fa-2x" />
         </a>
       </Socials>
-      wildhacks.net
+      <p>wildhacks.net</p>
     </Container>
   );
 }

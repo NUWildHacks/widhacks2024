@@ -7,6 +7,7 @@ export const decorativeFont = "'UnifrakturMaguntia', cursive";
 
 export const Bold = styled.span`
   font-weight: 700;
+  font-size: 1.2em;
 `;
 
 export const Decorative = styled.span`
