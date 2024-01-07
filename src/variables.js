@@ -16,7 +16,7 @@ export const tracks = [
 ];
 
 // Question: Answer
-// There is some syntax issue
+// // There is some syntax issue
 // export const faq_general = {
 //   'What is WildHacks?': (
 //     <>
@@ -29,15 +29,15 @@ export const tracks = [
 //   ),
 //   "What if I've never coded before?": (
 //     <>
-//       WildHacks is open to students of <span>all experience levels</span>! We'll
+//       WildHacks is open to students of <span>all experience levels</span>! We&apos;ll
 //       send out resources with beginner-friendly tutorials and will have a
 //       Discord server on which you can ask questions.
 //     </>
 //   ),
 //   'Is this hackathon purely coding-based?': (
 //     <>
-//       The hackathon will be <span>software-focused</span>, but don't worry if
-//       you don't have prior coding experience. We'll send out resources and have
+//       The hackathon will be <span>software-focused</span>, but don&apos;t worry if
+//       you don&apos;t have prior coding experience. We&apos;ll send out resources and have
 //       workshops to help you learn how to code.
 //     </>
 //   ),
@@ -52,8 +52,8 @@ export const tracks = [
 //     ),
 //   'What will I submit?': (
 //     <>
-//       At the end of the hackathon, you'll submit your
-//       <span>project's source code</span>, a <span>2-minute video pitch</span>,
+//       At the end of the hackathon, you&apos;ll submit your
+//       <span>project&apos;s source code</span>, a <span>2-minute video pitch</span>,
 //       and any other relevant resources to the WildHacks Dashboard. A more
 //       detailed rubric will be released during kickoff.
 //     </>
@@ -77,7 +77,7 @@ export const tracks = [
 //   'Are you required to have a team to register?': (
 //     <>
 //       <span>No, you are not required to register with a team</span>. At the
-//       start of the event, if you don't already have a team in mind, you can
+//       start of the event, if you don&apos;t already have a team in mind, you can
 //       choose find a team to join or be randomly assigned to one. There will be
 //       time during the event to find team members, but you can also find members
 //       on the Discord server.
@@ -88,7 +88,7 @@ export const tracks = [
 // export const faq_logistics = {
 //   'Where will WildHacks take place?': (
 //     <>
-//       WildHacks will take place primarily in Northwestern University's
+//       WildHacks will take place primarily in Northwestern University&apos;s
 //       <span>Seeley G. Mudd Library</span>. The building will be open overnight.
 //       More details about the logistics of check-in will be released closer to
 //       the event.
@@ -98,7 +98,7 @@ export const tracks = [
 //     <>
 //       There will a room reserved overnight dedicated to sleeping. However, we
 //       recommend bringing pillows and blankets. There are two showers at Mudd
-//       Library, and we'll provide toiletries (shower gel, shampoo, and
+//       Library, and we&apos;ll provide toiletries (shower gel, shampoo, and
 //       conditioner), but we recommend bringing your own towel.
 //     </>
 //   ),
@@ -124,13 +124,13 @@ export const tracks = [
 // export const faq_support = {
 //   'How can I get in touch?': (
 //     <>
-//       Send us an email at <span>wildhacks@northwestern.edu</span>! We'd be happy
+//       Send us an email at <span>wildhacks@northwestern.edu</span>! We&apos;d be happy
 //       to answer any questions about the event or steps to get involved.
 //     </>
 //   ),
 //   "I'm interested in sponsoring WildHacks. Who should I contact?": (
 //     <>
-//       Send us an email at <span>wildhacks@northwestern.edu</span>! We'd be happy
+//       Send us an email at <span>wildhacks@northwestern.edu</span>! We&apos;d be happy
 //       to talk.
 //     </>
 //   ),
